@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selenium>
+	<common>
+		<implicitWait>40000</implicitWait>
+		<version>VER_MAR_2015</version>	
+		<env>STAGING</env>
+		<adbPath>/Library/android-sdk-macosx/platform-tools/adb</adbPath>
+		<envFilePath>/Storage/Environments/Environments.xml</envFilePath>
+		<reportColor>Orange</reportColor>
+		<orgName>Ignite World</orgName>
+		<autoDetectADBPath>true</autoDetectADBPath>
+		<autoDetectAndroidDevices>true</autoDetectAndroidDevices>
+		<autoDetectIOSDevices>false</autoDetectIOSDevices>
+		<restAPIFolder>/Storage/RestAPI/</restAPIFolder>
+		<appsFolder>/resources/apps/</appsFolder>
+		<perlScriptPath>/resources/PerlScripts/</perlScriptPath>
+		<retryCount>0</retryCount>
+		<takeScreenshot>true</takeScreenshot>
+		<accessKey>AKIAI4K4WCGDYHNMOELA</accessKey>
+		<secretKey>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</secretKey>
+		<browserTest>false</browserTest>
+		<app>Music-stag-playstore-debug.apk</app>
+		<appPackage>com.bsbportal.music.debug</appPackage>
+	    <appActivity>com.bsbportal.music.activities.LauncherScreenActivity</appActivity>
+	    <appWaitActivity>com.bsbportal.music.activities.LauncherScreenActivity,com.bsbportal.music.activities.HomeActivity,com.bsbportal.music.activities.AppTourActivity</appWaitActivity>
+	    <platformName>Android</platformName>
+	    <fullReset>false</fullReset>
+	    <autoLaunch>true</autoLaunch>
+	    <newCommandTimeout>200000</newCommandTimeout>
+	    <relativeDeviceConfigurationPath>/src/DeviceConfiguration.xml</relativeDeviceConfigurationPath>
+	    <emailNotification>false</emailNotification>
+	    <suiteTo>rakesh.sharma@ignite.world;prateek.ladha@ignite.world;</suiteTo>
+	    <classTo>prateek.ladha@ignite.world;</classTo>
+	    <attachSSInEmail>false</attachSSInEmail>
+	    <appVersion>36 v1.3.2.0</appVersion>
+	    <resetFUPCount>true</resetFUPCount>
+	    <retryNames>all</retryNames>
+	</common>
+	<api1>
+	    <testSet>SeleniumReport</testSet>			   
+	</api1>
+	<android1>
+	    <deviceName>Motorola</deviceName>
+	    <chromeDriverPort>9515</chromeDriverPort>
+		<ip>http://0.0.0.0:4723/wd/hub</ip>
+		<testSet>SeleniumReport</testSet>			   
+	</android1>		
+	<android2>
+	    <deviceName>Nexus</deviceName>
+	    <chromeDriverPort>9516</chromeDriverPort>
+		<ip>http://0.0.0.0:4724/wd/hub</ip>
+		<testSet>SeleniumReport</testSet>	
+	</android2>
+	<android3>
+	    <deviceName>Asus</deviceName>
+	    <chromeDriverPort>9517</chromeDriverPort>
+		<ip>http://0.0.0.0:4725/wd/hub</ip>
+		<testSet>SeleniumReport</testSet>			   
+	</android3>
+	<android4>
+	    <udid>036c51cf0935de41</udid>
+	    <deviceName>NexusVroon</deviceName>
+	    <chromeDriverPort>9518</chromeDriverPort>
+		<ip>http://0.0.0.0:4723/wd/hub</ip>
+		<testSet>SeleniumReport</testSet>			   
+	</android4>
+<!-- 	<android3> -->
+<!-- 	    <udid>ZX1G522GMF</udid> -->
+<!-- 	    <msisdn>9449612927</msisdn> -->
+<!-- 	    <profileName>Anand</profileName> -->
+<!-- 	    <deviceName>Asus</deviceName> -->
+<!-- 	    <chromeDriverPort>9515</chromeDriverPort> -->
+<!-- 		<ip>http://192.168.105.147:4723/wd/hub</ip> -->
+<!-- 		<testSet>SeleniumReport</testSet> -->
+<!-- 		<user>anand</user> -->
+<!-- 	</android3> -->
+	<ios1>
+	    <browserTest>false</browserTest>
+	    <app></app>
+	    <udid>47c66f90b1cdca19e13d16988ab9853a3c335e11</udid>
+	    <bundleId>com.appstreetsoft.WynkPay</bundleId>
+	    <deviceName>iphone</deviceName>
+	    <platformName>ios</platformName>
+	    <fullReset>false</fullReset>
+	    <autoLaunch>true</autoLaunch>
+	    <newCommandTimeout>200000</newCommandTimeout>
+		<ip>http://0.0.0.0:5555/wd/hub</ip>
+		<testSet>SeleniumReport</testSet>			   
+	</ios1>
+</selenium>
